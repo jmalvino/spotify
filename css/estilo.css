@@ -1,0 +1,13 @@
+/*
+* 
+* @author Jmalvino
+*/
+
+
+.svg{
+    fill: #009cf6;
+}
+
+.svg:hover path {
+    fill: #009cf6;
+}
