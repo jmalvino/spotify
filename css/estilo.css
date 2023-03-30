@@ -3,11 +3,14 @@
 * @author Jmalvino
 */
 
-
-.svg{
-    fill: #009cf6;
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
 }
 
-.svg:hover path {
-    fill: #009cf6;
+.borda{
+    border: 3px solid red;
 }
