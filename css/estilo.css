@@ -5,6 +5,7 @@
 
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -28,6 +29,17 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+}
 
 .btn-custom{
     color: white;
@@ -55,8 +67,6 @@ h1 {
     background: white;
     color: black;
 }
-
-
 
 
 .borda{
@@ -89,6 +99,44 @@ nav.navbar-transparente{
     align-items: center;
     margin: 12px 15px;
 }
+
+/* Estrutura de conteudo */
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#servicos h2, h3{
+    color: #7c26f8;
+}
+
+#recursos h2{
+    color: white;
+}
+#recursos h3{
+    color: #7c26f8;
+}
+
+.album{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
 
 
 /* // Small devices (landscape phones, 576px and up) */
